@@ -74,7 +74,7 @@ stages:
     pool:
       vmImage: 'ubuntu-18.04'
     variables:
-    - group: Release
+    - group: TerraFormVaribleGroup
     steps:
     - script: |
         # Exit when any command returns a failure status.
